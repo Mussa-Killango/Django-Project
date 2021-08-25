@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    text-align:center;
+}
+
+.nav-title {
+    font-size: 2rem;
+    margin: .5rem;
+}
+
+.nav-title a {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+}
+
+.nav-title a:hover {
+    color: blue;
+}
+
+.farm-item {
+    margin: 30px;
+}
+
+.farm-item-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+
+.farm-item-image {
+    height: 200px;
+    width: auto;
+    border-radius: 4px;
+}
+
+.farm-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.farm-item-description {
+    flex-grow: 1;
+    color: #333;
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.farm-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+    color: white;
+    background-color: #56ccf2;
+    border: none;
+    border-radius: .3em;
+}
+
+.btn:hover {
+    background-color: #426c85;
+}
